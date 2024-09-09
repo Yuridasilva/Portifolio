@@ -1,13 +1,306 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/swiper@9/swiper-bundle.min.css" />
+
+    <!-- Box icons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+
+    <!-- Custom css-->
     <link rel="stylesheet" href="Css/style.css">
-    <title>Portifolio</title>
+    <title>Portfólio</title>
 </head>
+
 <body>
-    
+    <!-- Header-->
+    <header class="header"><a href="#" class="logo">Portfólio</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#sobre">sobre</a>
+            <a href="#serviços">serviços</a>
+            <a href="#portifolio">Portfolio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Home section design-->
+    <section>
+        <div>
+            <h3>Olá, eu sou</h3>
+            <h1>Yuri dos Santos</h1>
+            <p>
+                Sou um desenvolvedor web que adora criar sites bonitos e funcionais para pessoas que querem fazer a
+                diferença no mundo
+            </p>
+            <p>
+                Atualmente sou aluno do Jayme Paiva de Eldorado, onde estou aprendendo a criar sites bonitos e
+                funcionais usando HTML, CSS, JavaScript.
+            </p>
+
+            <div class="social-media">
+
+                <a href="https://github.com/Yuridasilva/Portifolio">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="#"><i class="bx bxl-linkedin"></i>
+                </a>
+                <a href="#"><i class="bx bxl-discord"></i>
+                </a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i>
+
+                </a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-bx">
+                <div class="profession" style="--i:0;">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Web Developer</h3>
+                </div>
+
+                <div class="profession" style="--i:1;">
+                    <i class="bx bx-camera"> </i>
+                    <h3>Photographer</h3>
+                </div>
+
+                <div class="profession" style="--i:2;">
+                    <i class="bx bx-pallete"></i>
+                    <h3>Web Developer</h3>
+                </div>
+
+                <div class="profession" style="--i:3;">
+                    <i class="bx bx-video-recording"></i>
+                    <h3>Videographer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="ovelay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="#" alt="">
+        </div>
+    </section>
+
+    <section class="sobre">
+        <div class="sobre-img">
+            <img src="#" alt="">
+        </div>
+
+        <div class="sobre-content">
+            <h2 class="heading">Sobre<span>Mim</span></h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolorem? Qui repellendus odio culpa
+                dolore corporis dignissimos aliquam ea. Iusto quae et sed in, ad eos id natus atque recusandae?</h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit alias sit eaque quasi illo, assumenda
+                eius nesciunt modi ab blanditiis, excepturi magni? Culpa exercitationem sequi voluptatem laudantium
+                doloremque delectus officiis.
+            </p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <!--Services Action Design-->
+    <section class="servicos">
+        <h2 class="heading">Meus<span>Serviços</span></h2>
+
+        <div class="servicos-container">
+            <div class="servicos-box"><i class="bx bx-code-alt"></i>
+                <h3>Web Developer</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos possimus ex cupiditate animi ab, culpa
+                    veritatis esse quidem expedita ipsa, id provident similique ipsam, non ad rem doloribus nulla natus.
+                </p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+
+            <div class="servicos-box">
+                <i class="bx bxs-paint"></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis natus molestiae et non voluptas,
+                    aperiam, eligendi ad explicabo reiciendis iusto vitae in vero quis possimus assumenda dolorum porro
+                    placeat voluptatem.
+                </p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+
+            <div class="servicos-box">
+                <i class="bx bx-bar-chart-alt"></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, voluptatem recusandae, odit,
+                    quidem corrupti eveniet ducimus optio voluptates libero ipsam totam voluptas delectus sapiente
+                    aliquam? Animi nisi maiores error distinctio.
+                </p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfólio section design!-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Último<span>Projeto</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portifolio-box">
+                <img src="" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet eos molestias nisi ex atque fugit
+                        repellat illum pariatur, voluptatum, explicabo sed delectus commodi nihil adipisci dolorum optio
+                        consectetur veniam deleniti.
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="#" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, aliquam non! Molestiae eos
+                        fugiat esse ullam velit doloremque nulla soluta perferendis veritatis odit autem, tempore quis
+                        expedita minima cupiditate aliquam.
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="#" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, aliquam non! Molestiae eos
+                        fugiat esse ullam velit doloremque nulla soluta perferendis veritatis odit autem, tempore quis
+                        expedita minima cupiditate aliquam.
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="#" alt="">
+                <div class="portfolio-layer">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio excepturi autem ipsa, magnam
+                        obcaecati eos, sit iusto modi debitis impedit iure, voluptatum non. Porro iste, animi enim
+                        suscipit deleniti tempora?
+
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="#" alt="">
+
+                <div class="portfolio-box">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolorum vero rem distinctio veniam?
+                        Cum in tenetur fuga sapiente officiis ex veritatis, quibusdam a voluptatem ad quam nam repellat
+                        recusandae!
+
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos Design-->
+    <div class="testimonial-container">
+        <h2 class="heading">Depoimentos<span>Vaiiosos</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box-mySwiper">
+                <div class="testimonial-content-swiper-wrapper">
+                    <div class="testimonial-slide-swiper-slide">
+                        <img src="#" alt="">
+                        <h3>Henry Ford</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptas itaque harum laboriosam
+                            ab consequatur voluptates! Maiores error impedit, quam iure ullam culpa aperiam qui quod id
+                            delectus. Ab, tempore?
+                        </p>
+                    </div>
+
+                    <div class="testimonial-slide-swiper-wrapper">
+                        <img src="#" alt="">
+                        <h3>Marie culer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis atque, laboriosam
+                            magni, minus doloremque ab fugit ullam fuga nisi dignissimos quam pariatur inventore quas
+                            quisquam? Asperiores dignissimos dolorum quaerat.
+
+                        </p>
+                    </div>
+
+                    <div class="testimonial-slide-swiper-wrapper">
+                        <img src="#" alt="">
+                        <h3>Nicola tesla</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis atque, laboriosam
+                            magni, minus doloremque ab fugit ullam fuga nisi dignissimos quam pariatur inventore quas
+                            quisquam? Asperiores dignissimos dolorum quaerat.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>  
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--contato section design-->
+    <section class="contato" id="contato">
+        <h2 class="headign">Contate<span>Me!</span></h2>
+
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder="Nome completo">
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="telefone">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+            <input type="submit" value="Enviar mensagem" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyrigth &copy; 2024  | All Rights Reserved @rmag3dom. </p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js-->
     <script src="Scripts/Script.js"></script>
+
 </body>
+
 </html>
