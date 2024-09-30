@@ -15,7 +15,7 @@
 :root {
     --bg-color: #fdfdfd;
     --text-color: #333;
-    --main-color: #003366git;
+    --main-color: #7ab7f4;
     --white-color: #fdfdfd;
     --shadow-color: #0c0c0c;
 }
@@ -154,7 +154,7 @@ section {
     border: .2rem solid var(--main-color);
     border-radius: 50%;
     box-shadow: 0 .2rem .5rem var(--shadow-color);
-    font-size: .2rem;
+    font-size: 2rem;
     color: var(--main-color);
     margin: 2.5rem 1.5rem 3rem 0;
     transition: .5s ease;
@@ -842,6 +842,95 @@ span {
         transform: rotate(90deg) translate(-50%, 50%)scale(3);
         border-width: 23.9rem;
     }
-    
+
+    .about{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about-content h2{
+        text-align: center;
+    }
+
+    .about-img img {
+        width: 70vw;
+        margin-top: -2rem;
+    }
+
+    .testimonial-container .testimonial-wrapper{
+        padding: 5rem 0;
+    }
+
+    .testimonial-container .testimonial-slide {
+        padding: 3rem 2rem;
+    }
+     .testimonial-box .swiper-button-next,
+     .testimonial-box .swiper-button-prev{
+        display: none;
+     }   
 }
 
+@media (max-width: 580px) {
+    .portfolio .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+    html{
+        font-size: 50%;
+    }
+
+    #darkMode-icon {
+        right: 6rem;
+    }
+
+    .home .profession-box .profession:nth-child(1){
+        transform: rotate(-90deg) translate(-110px,-220px);
+    }
+
+    .home .profession-box .profession:nth-child(2){
+        transform: rotate(0deg) translate(5px,-325px);
+    }
+
+    .home .profession-box .profession:nth-child(3){
+        transform: rotate(90deg) translate(-105px,-440px);
+}
+
+.home .profession-box .profession:nth-child(4){
+    transform: rotate(180deg) translate(-210px,-325px);
+}
+
+    .home .profession-container .overlay{
+        top: 80rem
+    }
+
+    .contact form .input-box input{
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 365px) {
+    .about-img img {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 315px) {
+    .home-content h1{
+        font-size: 4.5rem;
+    }
+}
+img{
+    border-radius: 20px;
+}
+ 
